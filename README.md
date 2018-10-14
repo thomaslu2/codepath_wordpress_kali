@@ -1,10 +1,18 @@
 # Project 7 - WordPress Pentesting
 Time spent: **6** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
-
+1. (Required) XSS in YouTube URL Embeds
+  - [ ] Summary: 
+    - Vulnerability types: Stored XSS in WP Core
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
+  - [ ] GIF Walkthrough: <img src="pro7_1.gif" width="800">
+  - [ ] Steps to recreate: 
+  - [ ] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 
 
