@@ -23,17 +23,17 @@ Time spent: **6** hours spent in total
   - [ ] GIF Walkthrough: <img src="pro7_2.gif" width="800">
   - [ ] Steps to recreate: Open up a new post, and insert the embedded link for a YouTube video. At the end of the main embedded video statement, add an alert whenever the video loads. In this case, "onload=alert(123456789)" was the alert used. 
   - [ ] Affected source code:
-    - [Link 2](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 2](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 
-3. (Required) Vulnerability Name or ID
+3. (Required) Stored XSS
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2 
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: <img src="pro7_3.gif" width="800">
+  - [ ] Steps to recreate: Create a new post, and insert "a href="[caption code=">]</a><a title=" onmouseover=alert('test') ">link</a" in the body
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 3](https://klikki.fi/adv/wordpress3.html)
 
 ## Assets
 
