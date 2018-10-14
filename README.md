@@ -10,9 +10,10 @@ Time spent: **6** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: <img src="pro7_1.gif" width="800">
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Open up a new post and add an embedded YouTube video URL. In the URL, add an XSS at the end. For this example, "<svg onload=alert(1)>" was used to show a pop-up alert everytime the video would load. 
+  
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 
 
 
